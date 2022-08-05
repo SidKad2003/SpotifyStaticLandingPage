@@ -283,6 +283,7 @@ li {
     }
     #mid {
         height: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -314,7 +315,7 @@ li {
         display: flex;
         justify-content: center;
         justify-content: space-evenly;
-        padding-left: 1rem;
+        width: 100%;
     }
 }
 /* for ham menu */
