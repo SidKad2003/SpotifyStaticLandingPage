@@ -43,8 +43,30 @@ body{
     color: white;
     padding: 2px 38px;
     position: relative;
+    font-weight: 800;  
+}
+.header_rgt {
+    color: white;
+    padding: 2px 38px;
+    position: relative;
     font-weight: 800;
-   
+}
+
+.header_rgt:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+#logo:hover,
+#logo_bottom:hover {
+    cursor: pointer;
+}
+.hum:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
   
   /* nav menu button */
